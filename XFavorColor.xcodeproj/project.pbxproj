@@ -9,10 +9,18 @@
 /* Begin PBXBuildFile section */
 		C1451D40175C78B5005DF987 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1451D3F175C78B5005DF987 /* Cocoa.framework */; };
 		C1451D4A175C78B5005DF987 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1451D48175C78B5005DF987 /* InfoPlist.strings */; };
+		C1451D51175C7AA5005DF987 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1451D42175C78B5005DF987 /* AppKit.framework */; };
+		C1451D54175C7ABA005DF987 /* XFavorColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C1451D53175C7ABA005DF987 /* XFavorColor.m */; };
+		C188C84B175C87720069E15D /* ColorPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = C188C84A175C87720069E15D /* ColorPanel.xib */; };
+		C188C84E175C8B690069E15D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C188C84D175C8B690069E15D /* icon.png */; };
+		C188C851175C9A0C0069E15D /* ColorItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = C188C850175C9A0C0069E15D /* ColorItem.xib */; };
+		C188C854175C9AA30069E15D /* XFavorColorItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C188C853175C9AA30069E15D /* XFavorColorItem.m */; };
+		C188C857175C9CBF0069E15D /* XColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C188C856175C9CBF0069E15D /* XColor.m */; };
+		C188C85A175CA4F50069E15D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C188C859175CA4F50069E15D /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C1451D3C175C78B5005DF987 /* XFavorColor.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XFavorColor.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1451D3C175C78B5005DF987 /* XFavorColor.colorPicker */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XFavorColor.colorPicker; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1451D3F175C78B5005DF987 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		C1451D42175C78B5005DF987 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		C1451D43175C78B5005DF987 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -20,6 +28,16 @@
 		C1451D47175C78B5005DF987 /* XFavorColor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XFavorColor-Info.plist"; sourceTree = "<group>"; };
 		C1451D49175C78B5005DF987 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C1451D4B175C78B5005DF987 /* XFavorColor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XFavorColor-Prefix.pch"; sourceTree = "<group>"; };
+		C1451D52175C7ABA005DF987 /* XFavorColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFavorColor.h; sourceTree = "<group>"; };
+		C1451D53175C7ABA005DF987 /* XFavorColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFavorColor.m; sourceTree = "<group>"; };
+		C188C84A175C87720069E15D /* ColorPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorPanel.xib; sourceTree = "<group>"; };
+		C188C84D175C8B690069E15D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		C188C850175C9A0C0069E15D /* ColorItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorItem.xib; sourceTree = "<group>"; };
+		C188C852175C9AA20069E15D /* XFavorColorItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFavorColorItem.h; sourceTree = "<group>"; };
+		C188C853175C9AA30069E15D /* XFavorColorItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFavorColorItem.m; sourceTree = "<group>"; };
+		C188C855175C9CBF0069E15D /* XColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XColor.h; sourceTree = "<group>"; };
+		C188C856175C9CBF0069E15D /* XColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XColor.m; sourceTree = "<group>"; };
+		C188C859175CA4F50069E15D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C188C85A175CA4F50069E15D /* QuartzCore.framework in Frameworks */,
+				C1451D51175C7AA5005DF987 /* AppKit.framework in Frameworks */,
 				C1451D40175C78B5005DF987 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -37,6 +57,7 @@
 		C1451D33175C78B5005DF987 = {
 			isa = PBXGroup;
 			children = (
+				C188C859175CA4F50069E15D /* QuartzCore.framework */,
 				C1451D45175C78B5005DF987 /* XFavorColor */,
 				C1451D3E175C78B5005DF987 /* Frameworks */,
 				C1451D3D175C78B5005DF987 /* Products */,
@@ -46,7 +67,7 @@
 		C1451D3D175C78B5005DF987 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C1451D3C175C78B5005DF987 /* XFavorColor.bundle */,
+				C1451D3C175C78B5005DF987 /* XFavorColor.colorPicker */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,7 +94,16 @@
 		C1451D45175C78B5005DF987 /* XFavorColor */ = {
 			isa = PBXGroup;
 			children = (
+				C188C84D175C8B690069E15D /* icon.png */,
 				C1451D46175C78B5005DF987 /* Supporting Files */,
+				C188C855175C9CBF0069E15D /* XColor.h */,
+				C188C856175C9CBF0069E15D /* XColor.m */,
+				C1451D52175C7ABA005DF987 /* XFavorColor.h */,
+				C1451D53175C7ABA005DF987 /* XFavorColor.m */,
+				C188C84A175C87720069E15D /* ColorPanel.xib */,
+				C188C852175C9AA20069E15D /* XFavorColorItem.h */,
+				C188C853175C9AA30069E15D /* XFavorColorItem.m */,
+				C188C850175C9A0C0069E15D /* ColorItem.xib */,
 			);
 			path = XFavorColor;
 			sourceTree = "<group>";
@@ -105,7 +135,7 @@
 			);
 			name = XFavorColor;
 			productName = XFavorColor;
-			productReference = C1451D3C175C78B5005DF987 /* XFavorColor.bundle */;
+			productReference = C1451D3C175C78B5005DF987 /* XFavorColor.colorPicker */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -140,6 +170,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1451D4A175C78B5005DF987 /* InfoPlist.strings in Resources */,
+				C188C84B175C87720069E15D /* ColorPanel.xib in Resources */,
+				C188C84E175C8B690069E15D /* icon.png in Resources */,
+				C188C851175C9A0C0069E15D /* ColorItem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +183,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1451D54175C7ABA005DF987 /* XFavorColor.m in Sources */,
+				C188C854175C9AA30069E15D /* XFavorColorItem.m in Sources */,
+				C188C857175C9CBF0069E15D /* XColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,12 +264,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XFavorColor/XFavorColor-Prefix.pch";
 				INFOPLIST_FILE = "XFavorColor/XFavorColor-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "$(HOME)/Library/ColorPickers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				WRAPPER_EXTENSION = colorPicker;
 			};
 			name = Debug;
 		};
@@ -241,12 +279,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XFavorColor/XFavorColor-Prefix.pch";
 				INFOPLIST_FILE = "XFavorColor/XFavorColor-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "$(HOME)/Library/ColorPickers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = bundle;
+				WRAPPER_EXTENSION = colorPicker;
 			};
 			name = Release;
 		};
@@ -269,6 +309,7 @@
 				C1451D50175C78B5005DF987 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
