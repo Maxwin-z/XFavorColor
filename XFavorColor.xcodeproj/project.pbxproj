@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1451D40175C78B5005DF987 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1451D3F175C78B5005DF987 /* Cocoa.framework */; };
+		C1451D4A175C78B5005DF987 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1451D48175C78B5005DF987 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C1451D3C175C78B5005DF987 /* XFavorColor.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XFavorColor.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1451D3F175C78B5005DF987 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C1451D42175C78B5005DF987 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C1451D43175C78B5005DF987 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C1451D44175C78B5005DF987 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C1451D47175C78B5005DF987 /* XFavorColor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XFavorColor-Info.plist"; sourceTree = "<group>"; };
+		C1451D49175C78B5005DF987 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1451D4B175C78B5005DF987 /* XFavorColor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XFavorColor-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1451D39175C78B5005DF987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1451D40175C78B5005DF987 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1451D33175C78B5005DF987 = {
+			isa = PBXGroup;
+			children = (
+				C1451D45175C78B5005DF987 /* XFavorColor */,
+				C1451D3E175C78B5005DF987 /* Frameworks */,
+				C1451D3D175C78B5005DF987 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1451D3D175C78B5005DF987 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1451D3C175C78B5005DF987 /* XFavorColor.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1451D3E175C78B5005DF987 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1451D3F175C78B5005DF987 /* Cocoa.framework */,
+				C1451D41175C78B5005DF987 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1451D41175C78B5005DF987 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1451D42175C78B5005DF987 /* AppKit.framework */,
+				C1451D43175C78B5005DF987 /* CoreData.framework */,
+				C1451D44175C78B5005DF987 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C1451D45175C78B5005DF987 /* XFavorColor */ = {
+			isa = PBXGroup;
+			children = (
+				C1451D46175C78B5005DF987 /* Supporting Files */,
+			);
+			path = XFavorColor;
+			sourceTree = "<group>";
+		};
+		C1451D46175C78B5005DF987 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1451D47175C78B5005DF987 /* XFavorColor-Info.plist */,
+				C1451D48175C78B5005DF987 /* InfoPlist.strings */,
+				C1451D4B175C78B5005DF987 /* XFavorColor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1451D3B175C78B5005DF987 /* XFavorColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1451D4E175C78B5005DF987 /* Build configuration list for PBXNativeTarget "XFavorColor" */;
+			buildPhases = (
+				C1451D38175C78B5005DF987 /* Sources */,
+				C1451D39175C78B5005DF987 /* Frameworks */,
+				C1451D3A175C78B5005DF987 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XFavorColor;
+			productName = XFavorColor;
+			productReference = C1451D3C175C78B5005DF987 /* XFavorColor.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1451D34175C78B5005DF987 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = nju;
+			};
+			buildConfigurationList = C1451D37175C78B5005DF987 /* Build configuration list for PBXProject "XFavorColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C1451D33175C78B5005DF987;
+			productRefGroup = C1451D3D175C78B5005DF987 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1451D3B175C78B5005DF987 /* XFavorColor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1451D3A175C78B5005DF987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1451D4A175C78B5005DF987 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1451D38175C78B5005DF987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1451D48175C78B5005DF987 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1451D49175C78B5005DF987 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1451D4C175C78B5005DF987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C1451D4D175C78B5005DF987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C1451D4F175C78B5005DF987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XFavorColor/XFavorColor-Prefix.pch";
+				INFOPLIST_FILE = "XFavorColor/XFavorColor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C1451D50175C78B5005DF987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XFavorColor/XFavorColor-Prefix.pch";
+				INFOPLIST_FILE = "XFavorColor/XFavorColor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1451D37175C78B5005DF987 /* Build configuration list for PBXProject "XFavorColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1451D4C175C78B5005DF987 /* Debug */,
+				C1451D4D175C78B5005DF987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1451D4E175C78B5005DF987 /* Build configuration list for PBXNativeTarget "XFavorColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1451D4F175C78B5005DF987 /* Debug */,
+				C1451D50175C78B5005DF987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1451D34175C78B5005DF987 /* Project object */;
+}
