@@ -26,5 +26,9 @@
 	<string>Copyright © 2013年 nju. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
 	<string>XFavorColor</string>
+	<key>XC4Compatible</key>
+	<true/>
+	<key>XCGCReady</key>
+	<true/>
 </dict>
 </plist>
